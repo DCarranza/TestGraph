@@ -14,6 +14,9 @@
 		F14915A41A1945D200EBC062 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14915A31A1945D200EBC062 /* Images.xcassets */; };
 		F14915A71A1945D200EBC062 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F14915A51A1945D200EBC062 /* LaunchScreen.xib */; };
 		F14915B31A1945D200EBC062 /* TestGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F14915B21A1945D200EBC062 /* TestGraphTests.m */; };
+		F14915C31A194CA700EBC062 /* BEMCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = F14915BE1A194CA700EBC062 /* BEMCircle.m */; };
+		F14915C41A194CA700EBC062 /* BEMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F14915C01A194CA700EBC062 /* BEMLine.m */; };
+		F14915C51A194CA700EBC062 /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = F14915C21A194CA700EBC062 /* BEMSimpleLineGraphView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		F14915AC1A1945D200EBC062 /* TestGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14915B11A1945D200EBC062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F14915B21A1945D200EBC062 /* TestGraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGraphTests.m; sourceTree = "<group>"; };
+		F14915BD1A194CA700EBC062 /* BEMCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCircle.h; sourceTree = "<group>"; };
+		F14915BE1A194CA700EBC062 /* BEMCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCircle.m; sourceTree = "<group>"; };
+		F14915BF1A194CA700EBC062 /* BEMLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMLine.h; sourceTree = "<group>"; };
+		F14915C01A194CA700EBC062 /* BEMLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMLine.m; sourceTree = "<group>"; };
+		F14915C11A194CA700EBC062 /* BEMSimpleLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMSimpleLineGraphView.h; sourceTree = "<group>"; };
+		F14915C21A194CA700EBC062 /* BEMSimpleLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMSimpleLineGraphView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,7 @@
 				F149159D1A1945D200EBC062 /* ViewController.h */,
 				F149159E1A1945D200EBC062 /* ViewController.m */,
 				F14915A01A1945D200EBC062 /* Main.storyboard */,
+				F14915BC1A194CA700EBC062 /* Classes */,
 				F14915A31A1945D200EBC062 /* Images.xcassets */,
 				F14915A51A1945D200EBC062 /* LaunchScreen.xib */,
 				F14915961A1945D200EBC062 /* Supporting Files */,
@@ -117,6 +127,19 @@
 				F14915B11A1945D200EBC062 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F14915BC1A194CA700EBC062 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F14915BD1A194CA700EBC062 /* BEMCircle.h */,
+				F14915BE1A194CA700EBC062 /* BEMCircle.m */,
+				F14915BF1A194CA700EBC062 /* BEMLine.h */,
+				F14915C01A194CA700EBC062 /* BEMLine.m */,
+				F14915C11A194CA700EBC062 /* BEMSimpleLineGraphView.h */,
+				F14915C21A194CA700EBC062 /* BEMSimpleLineGraphView.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14915C41A194CA700EBC062 /* BEMLine.m in Sources */,
+				F14915C31A194CA700EBC062 /* BEMCircle.m in Sources */,
+				F14915C51A194CA700EBC062 /* BEMSimpleLineGraphView.m in Sources */,
 				F149159F1A1945D200EBC062 /* ViewController.m in Sources */,
 				F149159C1A1945D200EBC062 /* AppDelegate.m in Sources */,
 				F14915991A1945D200EBC062 /* main.m in Sources */,
